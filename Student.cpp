@@ -83,4 +83,9 @@ Student* StudentManager::findByUsername(const char* username) {
     return 0;
 }
 
+Student* StudentManager::getStudentAt(int index) {
+    if (index < 0 || index >= studentCount) return 0;
+    return &students[index];
+}
+
 int StudentManager::getCount() const { return studentCount; }

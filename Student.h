@@ -51,6 +51,7 @@ public:
     Student* login(const char* username, const char* password);
     Student* findById(int id);
     Student* findByUsername(const char* username);
+    Student* getStudentAt(int index);
     int getCount() const;
 };
 
