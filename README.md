@@ -2,7 +2,7 @@
 
 Console-based C++ Data Structures project, built incrementally without STL containers.
 
-## Current milestone: approximately 60%
+## Current milestone: approximately 40%
 
 - Fixed array of student records
 - Registration and login
