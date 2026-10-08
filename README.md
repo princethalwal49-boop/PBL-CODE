@@ -23,4 +23,3 @@ g++ -std=c++11 -Wall -Wextra -pedantic main.cpp Student.cpp LinkedList.cpp Skill
 .\PeerLearn.exe
 ```
 
-The later modules (request queue, ratings, projects, and file persistence) will be added one at a time.
